@@ -25,4 +25,22 @@ src: local('Goudy Old Style'), url('GOUDOS.woff') format('woff');
   background: linear-gradient(to top, rgba(56, 56, 56, 1) 0%, rgba(255, 255, 255, 0.4) 100%);
   background-color: rgba(56, 56, 56, 1);
   padding: 5px;
+  margin-top: 1px
+}
+
+.linkedin {
+  font-size: 25px;
+  float: right;
+  margin-top: -40px;
+  margin-right: 25px
+}
+&: hover {
+  color: #fff
+}
+
+.github {
+  color: #fff;
+  font-size: 25px;
+  float: left;
+  margin-left: 25px
 }

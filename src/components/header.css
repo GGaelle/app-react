@@ -32,5 +32,6 @@ src: local('Fresh Script'), url('Fresh Script.woff') format('woff');
 .header {
   background: linear-gradient(to bottom, rgba(203, 164, 140, 1) 0%, rgba(254, 254, 254, 0.4) 100%);
   background-color: rgba(203, 164, 140, 1);
-  padding: 10px
+  padding: 10px;
+  margin-bottom: 1px
 }

@@ -32,9 +32,11 @@ class GenerateurCitation extends Component {
   render() {
     return(
       <div className='container'>
-        <div className='generateur col-4'>
-          <Citation details={this.state}/>
-          <button className='btnCit' onClick={e => this.genererCitation(e)}>-- Une autre citation ! --</button>
+        <div className='col-4'>
+          <div className='generateur'>
+            <Citation details={this.state}/>
+            <button className='btnCit' onClick={e => this.genererCitation(e)}>-- Une autre citation ! --</button>
+          </div>
         </div>
       </div>
     )

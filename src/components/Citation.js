@@ -18,5 +18,3 @@ class Citation extends Component{
 }
 
 export default Citation
-
-//onClick={e => href:'https://www.wikipedia.org/${this.props.details.auteur}'
