@@ -15,12 +15,12 @@
 	box-shadow: 1px 1px 5px #595959;
 	background-color: rgb(255, 255, 255, 0.55);
 }
-p {
+.pCitation {
 	margin-top: 70px;
   padding: 5px 5px;
 }
 
-span {
+.spanCitation {
 	display: block;
 	text-align: right;
 	margin-top: 70px;
