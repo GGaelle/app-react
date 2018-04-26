@@ -1,0 +1,27 @@
+.header-logo {
+  width: 100px;
+  animation: header-logo-spin infinite 30s linear;
+  float: left;
+  margin-top: 5px
+}
+@keyframes header-logo-spin {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+.header-logo2 {
+  width: 100px;
+  animation: header-logo-spin infinite 30s linear;
+  float: right;
+  margin-top: -75px
+}
+.header-title {
+  text-align: center;
+  font-family: serif;
+}
+.header {
+  background-color: #000;
+  padding: 10px
+}
+.header-title {
+  color: #fff
+}
