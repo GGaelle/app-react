@@ -1,8 +1,17 @@
+@font-face {
+font-family: 'Fresh Script';
+font-style: normal;
+font-weight: normal;
+src: local('Fresh Script'), url('Fresh Script.woff') format('woff');
+}
+
+
+
 .header-logo {
   width: 100px;
   animation: header-logo-spin infinite 30s linear;
   float: left;
-  margin-top: 5px
+  margin-top: 5px;
 }
 @keyframes header-logo-spin {
   from { transform: rotate(0deg) }
@@ -16,12 +25,12 @@
 }
 .header-title {
   text-align: center;
-  font-family: serif;
+  font-family: "Fresh Script";
+  padding-right: 70px;
+  color: #383838;
 }
 .header {
-  background-color: #2d2b2b;
+  background: linear-gradient(to bottom, rgba(203, 164, 140, 1) 0%, rgba(254, 254, 254, 0.4) 100%);
+  background-color: rgba(203, 164, 140, 1);
   padding: 10px
-}
-.header-title {
-  color: #fff
 }

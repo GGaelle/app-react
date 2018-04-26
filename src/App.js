@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import GenerateurCitation from './components/GenerateurCitation'
 import Weather from './components/Weather'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Header />
         <GenerateurCitation />
         <Weather />
+        <Footer />
       </div>
     );
   }

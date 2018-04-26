@@ -58,6 +58,7 @@ class Weather extends React.Component {
       <div>
 
         <div className='wrapper'>
+          
           <div className='main'>
             <div className='container-weather'>
               <table className='table'>

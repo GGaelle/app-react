@@ -11,10 +11,10 @@ body {
   background-image: url("../img/fond-meteo3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 850px;
   justify-content: center;
   align-items: center;
-  margin-top: 5px
+  margin-top: 5px;
 }
 
 .main {
@@ -29,7 +29,8 @@ body {
   border: 1px solid #292929;
 	box-shadow: 1px 1px 5px #595959;
 	background-color: rgb(255, 255, 255, 0.55);
-  border-radius: 25px
+  border-radius: 25px;
+  margin: 20px 0
 }
 
 .title-container {
