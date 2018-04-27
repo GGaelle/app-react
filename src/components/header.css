@@ -25,6 +25,7 @@ src: local('Fresh Script'), url('Fresh Script.woff') format('woff');
 }
 .header-title {
   text-align: center;
+  font-size: 37px;
   font-family: "Fresh Script";
   padding-right: 70px;
   color: #383838;

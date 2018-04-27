@@ -30,7 +30,7 @@ module.exports = {
     picture: "./img/img6.png"
   },
   citation7: {
-    citation: "Ne cherche pas le bonheur, crée-le.",
+    citation: "Ne cherches pas le bonheur, crées-le.",
     auteur: "Anonyme",
     picture: "./img/img7.png"
   },
@@ -50,7 +50,7 @@ module.exports = {
     picture: "./img/img10.png"
   },
   citation11: {
-    citation: "En te levant le matin, rappelle-toi combien précieux est le privilège de vivre, de respirer, d’être heureux.",
+    citation: "En te levant le matin, rappelles-toi combien précieux est le privilège de vivre, de respirer, d’être heureux.",
     auteur: "Marc Aurèle",
     picture: "./img/img11.png"
   },

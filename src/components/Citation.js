@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import plume from '../img/plume.png'
 
 class Citation extends Component{
 
@@ -6,7 +7,7 @@ class Citation extends Component{
     return(
 
       <div>
-        <img src={this.props.details.picture} alt='' className='picture'/>
+        <h1 className='generateur-title'>Générateur de citations</h1> <img src={plume} className='plume'></img>
         <p className='pCitation'>
           {this.props.details.citation}
           <span className='spanCitation'>- {this.props.details.auteur} - <button onClick={e => window.open(`https://www.wikipedia.org/wiki/${this.props.details.auteur}`)} className="btn1">W</button></span>
@@ -18,3 +19,6 @@ class Citation extends Component{
 }
 
 export default Citation
+
+
+//<img src={this.props.details.picture} alt='' className='picture'/>

@@ -1,4 +1,9 @@
-
+@font-face {
+font-family: 'Great Vibes Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Great Vibes Regular'), url('GreatVibes-Regular-webfont.woff') format('woff');
+}
 
 .container{
   padding: 20px;
@@ -6,11 +11,10 @@
   background-image: url("../img/ecrivain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .generateur {
 	min-height: 500px;
-  width: 900px;
+  width: 850px;
 	margin: 40px auto;
 	padding: 20px 20px;
 	font-size: 30px;
@@ -22,9 +26,27 @@
 	box-shadow: 1px 1px 5px #595959;
 	background-color: rgb(255, 255, 255, 0.55);
 }
+
+.generateur-title{
+font-size: 45px;
+text-align: center;
+font-family: 'Great Vibes Regular';
+margin-top: -2px;
+font-style: italic;
+font-weight: normal;
+}
+
+.plume{
+    width: 5vh;
+    transform: rotateY(3.142rad);
+    float: right;
+    margin-top: -86px;
+    margin-right: 227px
+}
 .pCitation {
-	margin-top: 70px;
+	margin-top: 110px;
   padding: 5px 5px;
+  font-size: 25px
 }
 
 .spanCitation {
